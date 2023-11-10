@@ -11,7 +11,7 @@ const TodoItem = singleItem => {
     <li>
       <div className="eachitem_rowing">
         <p>{title}</p>
-        <button className="button-style" onChange={deleteitem} type="button">
+        <button className="button-style" onClick={deleteitem} type="button">
           Delete
         </button>
       </div>
